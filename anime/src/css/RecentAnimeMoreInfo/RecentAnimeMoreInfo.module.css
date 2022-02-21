@@ -1,0 +1,34 @@
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    padding: 50px 20px;
+    font-size: 20pt;
+}
+
+.aniBox {
+    width: 255px;
+    height: 400px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.aniBox img {
+    max-width: 255px;
+    max-height: 360px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bigBox ul {
+    display: flex;
+}

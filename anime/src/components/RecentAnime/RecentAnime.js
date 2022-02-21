@@ -23,7 +23,7 @@ function RecentAnime() {
                 ))
             }
         }
-        return arr;
+        return arr.reverse();
     }
 
     useEffect(() => {
