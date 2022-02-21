@@ -1,0 +1,8 @@
+.recentBox {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.recentBox div {
+    margin-right: 10px;
+}
