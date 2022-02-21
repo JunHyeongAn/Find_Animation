@@ -1,0 +1,8 @@
+.relateAni {
+    display: flex;
+}
+
+.relateAni div {
+    text-align: center;
+    margin-right: 30px;
+}
