@@ -14,7 +14,6 @@ function TopAnime() {
         setTopAnimes(json.top);
         setLoading(false);
     }
-    console.log(topAnimes)
     useEffect(() => {
         getTopAnime();
     }, []);
