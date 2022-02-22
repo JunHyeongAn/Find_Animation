@@ -23,8 +23,10 @@ function RecentAnimeMoreInfo({activePage}) {
 
     const showContents = () => {
         setContent([]);
-        for(let i = activePage; i < activePage + perPageContent; i++) {
+        for(let i = (activePage-1) * perPageContent; i < ((activePage-1) * perPageContent + perPageContent); i++) {
             const ani = allRecentAnime[i];
+            console.log(i)
+            console.log(ani)
             if(ani === undefined) continue;
             setContent(currArr => [...currArr, <RecentAnimeMoreInfoComp
                 image={ani.images.jpg.image_url}

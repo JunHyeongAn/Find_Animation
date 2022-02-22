@@ -16,9 +16,9 @@ function RecentAnimeMore() {
             <RecentAnimeMoreInfo activePage={activePage}/>
             <Pagination
                 activePage={activePage}
-                itemsCountPerPage={10}
-                totalItemsCount={450}
-                pageRangeDisplayed={5}
+                itemsCountPerPage={30}
+                totalItemsCount={200}
+                pageRangeDisplayed={10}
                 onChange={handlePageChange.bind(this)}
             />
         </div>
